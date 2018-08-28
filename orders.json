@@ -1,0 +1,79 @@
+{
+	"iphones": [
+		{
+			"product": "MQA62CH/A",
+			"dimensionCapacity": "64gb",
+			"dimensionColor": "silver",
+			"dimensionScreensize": "5_8inch",
+			"name": "iphone-x",
+			"quantity": 2,
+			"detailUrl": "https://www.apple.com/cn/shop/buy-iphone/iphone-x/5.8-%E8%8B%B1%E5%AF%B8%E6%98%BE%E7%A4%BA%E5%B1%8F-64gb-%E9%93%B6%E8%89%B2"
+		},
+		{
+			"product": "MQA92CH/A",
+			"dimensionCapacity": "256gb",
+			"dimensionColor": "silver",
+			"dimensionScreensize": "5_8inch",
+			"name": "iphone-x",
+			"quantity": 2,
+			"detailUrl": "https://www.apple.com/cn/shop/buy-iphone/iphone-x/5.8-%E8%8B%B1%E5%AF%B8%E6%98%BE%E7%A4%BA%E5%B1%8F-256gb-%E9%93%B6%E8%89%B2"
+		},
+		{
+			"product": "MQA52CH/A",
+			"dimensionCapacity": "64gb",
+			"dimensionColor": "space_gray",
+			"dimensionScreensize": "5_8inch",
+			"name": "iphone-x",
+			"quantity": 2,
+			"detailUrl": "https://www.apple.com/cn/shop/buy-iphone/iphone-x/5.8-%E8%8B%B1%E5%AF%B8%E6%98%BE%E7%A4%BA%E5%B1%8F-64gb-%E6%B7%B1%E7%A9%BA%E7%81%B0%E8%89%B2"
+		},
+		{
+			"product": "MQA82CH/A",
+			"dimensionCapacity": "256gb",
+			"dimensionColor": "space_gray",
+			"dimensionScreensize": "5_8inch",
+			"name": "iphone-x",
+			"quantity": 2,
+			"detailUrl": "https://www.apple.com/cn/shop/buy-iphone/iphone-x/5.8-%E8%8B%B1%E5%AF%B8%E6%98%BE%E7%A4%BA%E5%B1%8F-256gb-%E6%B7%B1%E7%A9%BA%E7%81%B0%E8%89%B2"
+		}
+	],
+	"orders": [
+		{
+			"iphone":{
+				"product": "MQA52CH/A",
+				"dimensionCapacity": "64gb",
+				"dimensionColor": "space_gray",
+				"dimensionScreensize": "5_8inch",
+				"name": "iphone-x",
+				"quantity": 2,
+				"skuId": "3133857",
+				"detailUrl": "https://item.jd.com/3133857.html"
+			},
+			"user": {
+				"passport": {
+					"name": "doudou1826",
+					"pwd": "594doudou"
+				},
+				"address": {
+					"addressInfoParam.consigneeName": "李先生",
+					"addressInfoParam.provinceId": "1",
+					"addressInfoParam.cityId": "2801",
+					"addressInfoParam.countyId": "2853",
+					"addressInfoParam.townId": "0",
+					"addressInfoParam.provinceName":"北京",
+					"addressInfoParam.cityName":"西城区",
+					"addressInfoParam.countyName":"二环到三环",
+					"addressInfoParam.townName":"",
+					"addressInfoParam.consigneeAddress": "黄寺大街北广大厦1018室",
+					"addressInfoParam.mobile": 18141147496,
+					"addressInfoParam.fullAddress": "北京西城区二环到三环黄寺大街北广大厦1018室",
+					"addressInfoParam.phone": "",
+					"addressInfoParam.email": "",
+					"addressInfoParam.addressAlias": "公司",
+					"addressInfoParam.easyBuy": true
+				},
+				"paymentId": 4
+			}
+		}
+	]
+}

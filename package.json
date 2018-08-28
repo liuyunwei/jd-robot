@@ -1,0 +1,34 @@
+{
+  "name": "jd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "./node_modules/anywhere/bin/anywhere  -d orders",
+    "start": "node --harmony script/index.js  >> ./logs/log",
+    "monitor": "node --harmony script/index.js -m",
+    "clear-session": "rm -rf ./cookies/*",
+    "clear-orders": "rm -rf ./orders/*",
+    "clear-logs": "rm -rf ./logs/*",
+    "clear-authcode": "rm -rf ./authcodes/*",
+    "clear": "npm run clear-session && npm run clear-orders && npm run clear-logs && npm run clear-authcode",
+    "auto": "npm run clear && npm run start && npm run server "
+  },
+  "author": "liuyunwei",
+  "license": "ISC",
+  "dependencies": {
+    "anywhere": "^1.4.0",
+    "baidu-ai": "^1.2.0",
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.11.0",
+    "debug": "^3.1.0",
+    "iconv-lite": "^0.4.19",
+    "md5": "^2.2.1",
+    "mz": "^2.7.0",
+    "nodemailer": "^4.3.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "tough-cookie-filestore": "^0.0.1",
+    "underscore": "^1.8.3"
+  }
+}
